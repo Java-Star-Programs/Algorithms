@@ -1,10 +1,10 @@
-// Github: github.com/RodneyShag
+
 
 import java.util.Scanner;
 
 public class Bubble {
     public static void main(String[] args) {
-        /* Read input */
+     
     
     Scanner sc=new Scanner(System.in);
     System.out.print("Enter Number of Elements: ");
