@@ -1,9 +1,26 @@
+
+
+import java.util.Scanner;
+
 public class Bubble {
+    public static void main(String[] args) {
+     
     
-public static void main(String[] args) {
-       
-       
-    int a[]= {9,8,7,6,5,4,3,2,1};
+    Scanner sc=new Scanner(System.in);
+    System.out.print("Enter Number of Elements: ");
+    int n=sc.nextInt();
+    int a[]=new int[n];
+    for(int i=0;i<n;i++)
+    {
+          a[i]=sc.nextInt();
+    }
+    System.out.println("  ");
+    System.out.println("Elements");
+    System.out.println(" ");
+    for(int i=0;i<a.length;i++)
+    {
+    	System.out.print(a[i]+" \t ");
+    }
        
        for(int i=0;i<a.length;i++)
        {
@@ -19,15 +36,17 @@ public static void main(String[] args) {
     	   
     	   
        }
-       
+       System.out.println(" \n");
+       System.out.println(" ");
+       System.out.println("Sorting Elements");
+       System.out.println(" ");
        for(int i=0;i<a.length;i++)
        {
-    	   System.out.println(a[i]+" \t");
+    	   System.out.print(a[i]+" \t");
        }
        
     }
 
     
     }
-
 
